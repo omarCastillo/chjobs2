@@ -12,7 +12,7 @@ class CreatSeccionTable extends Migration
      */
     public function up()
     {
-        // Creamos la tabla requisitos
+        // Creamos la tabla seccion
         Schema::create('seccion',function($table){
             $table->increments('id_seccion');
             $table->string('nombre_seccion',45);

@@ -22,3 +22,16 @@ Route::get('/home', 'HomeController@index');
 Route::get('nueva-vacante', function () {
     return view('nueva-vacante');
 });
+
+Route::get('registro-postulante', function () {
+    return view('registro-postulante');
+});
+// Route::get('registro-postulante', 'registroPostulante@registrar_nuevo_postulante');
+
+Route::get('consulta-postulantes', function () {
+    return view('consulta-postulantes');
+});
+
+Route::get('consulta-vacantes', function () {
+    return view('consulta-vacantes');
+});

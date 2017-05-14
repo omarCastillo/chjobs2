@@ -12,7 +12,7 @@ class CreatResponsaleSeccionTable extends Migration
      */
     public function up()
     {
-        // Creamos la tabla requisitos
+        // Creamos la tabla responsable de seccion
         Schema::create('responsable_seccion',function($table){
             $table->increments('id_responsable_seccion');
             $table->string('nombre_responsable',45);

@@ -17,7 +17,7 @@
 <header>
     <div class="container-fluid">
       <div class="row">
-      	div.col-
+      	
       </div>
       
     </div>

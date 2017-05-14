@@ -17,31 +17,31 @@
 	  </div>
 	  <div class="form-group">
 	    <label for="salrio">Salario</label> 
-	    <input type="text" class="form-control" id="salario" name="salario" placeholder="Salario">
+	    <input type="number" class="form-control" id="salario" name="salario" placeholder="Salario">
 	  </div>
 	  <div class="form-group">
-	    <label for="id_actividad">Actividades a realizar.</label>
-	    <input type="text" class="form-control" id="id_actividad" name="id_actividad" placeholder="Actividades a realizar">
+	    <label for="nombre_actividad">Actividades a realizar.</label>
+	    <input type="text" class="form-control" id="nombre_actividad" name="nombre_actividad" placeholder="Actividades a realizar">
 	  </div>
 	  <div class="form-group">
-	    <label for="id_requisitos">Rquisitos.</label>
-	    <input type="text" class="form-control" id="id_requisitos" name="id_requisitos" placeholder="Requisitos">
+	    <label for="nombre_requisito">Requisitos.</label>
+	    <input type="text" class="form-control" id="nombre_requisito" name="nombre_requisito" placeholder="Requisitos">
 	  </div>
 
 	  <div class="form-group">
-	    <label for="id_lugar">Lugar.</label>
+	    <label for="nombre_lugar">Lugar.</label>
 	    <label class="checkbox-inline"><input type="checkbox" value="">CDMX</label>
 	  	<label class="checkbox-inline"><input type="checkbox" value="">PUEBLA</label>
 	  </div>
 
 	  <div class="form-group">
-	    <label for="id_jornada">Tipo de jornada.</label>
-	    <input type="text" class="form-control" id="id_jornada" name="id_jornada" placeholder="Tipo de jornada">
+	    <label for="tipo_jornada">Tipo de jornada.</label>
+	    <input type="text" class="form-control" id="tipo_jornada" name="tipo_jornada" placeholder="Tipo de jornada">
 	  </div>
 
 	  <div class="form-group">
-	    <label for="id_tag">Tag.</label>
-	    <input type="text" class="form-control" id="id_tag" name="id_tag" placeholder="Tag">
+	    <label for="nombre_tag">Tag.</label>
+	    <input type="text" class="form-control" id="nombre_tag" name="nombre_tag" placeholder="Tag">
 	  </div>
 	 
 	  

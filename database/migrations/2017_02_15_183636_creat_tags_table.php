@@ -12,7 +12,7 @@ class CreatTagsTable extends Migration
      */
     public function up()
     {
-        // Creamos la tabla requisitos
+        // Creamos la tabla tags
         Schema::create('tags',function($table){
             $table->increments('id_tag');
             $table->string('nombre_tag',45);

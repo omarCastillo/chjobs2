@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'CHJOBS') }}</title>
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
@@ -36,7 +36,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        CHJOBS
                     </a>
                 </div>
 
@@ -54,15 +54,23 @@
                             <li><a href="{{ url('/register') }}">Registrarse</a></li>
                         @else
                             <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Postulantes<span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="{{ url('../consulta-postulantes') }}">Consultar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Vacantes<span class="caret"></span>
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
                                         <a href="{{ url('../nueva-vacante') }}">Nueva</a>
-                                        <a href="{{ url('/register') }}">Modificar</a>
-                                        <a href="{{ url('/register') }}">Consultar</a>
-                                        <a href="{{ url('/register') }}">Elimiar</a>
+                                        <a href="{{ url('../consulta-vacantes') }}">Consultar</a>
                                     </li>
                                 </ul>
                             </li>
